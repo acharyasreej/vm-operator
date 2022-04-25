@@ -19,13 +19,13 @@ import (
 	vimTypes "github.com/vmware/govmomi/vim25/types"
 	"k8s.io/utils/pointer"
 
-	"github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	"github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/constants"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/pool"
-	res "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/resources"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/constants"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/pool"
+	res "github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/resources"
 )
 
 type VirtualMachineCloneContext struct {

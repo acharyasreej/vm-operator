@@ -16,15 +16,15 @@ import (
 	clientgorecord "k8s.io/client-go/tools/record"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	vmopv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/prober/context"
-	fakeworker "github.com/vmware-tanzu/vm-operator/pkg/prober/fake/worker"
-	"github.com/vmware-tanzu/vm-operator/pkg/prober/probe"
-	"github.com/vmware-tanzu/vm-operator/pkg/prober/worker"
-	"github.com/vmware-tanzu/vm-operator/pkg/record"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/fake"
-	"github.com/vmware-tanzu/vm-operator/test/builder"
+	"github.com/acharyasreej/vm-operator/pkg/prober/context"
+	fakeworker "github.com/acharyasreej/vm-operator/pkg/prober/fake/worker"
+	"github.com/acharyasreej/vm-operator/pkg/prober/probe"
+	"github.com/acharyasreej/vm-operator/pkg/prober/worker"
+	"github.com/acharyasreej/vm-operator/pkg/record"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/fake"
+	"github.com/acharyasreej/vm-operator/test/builder"
 )
 
 var _ = Describe("VirtualMachine probes", func() {

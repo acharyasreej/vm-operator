@@ -17,14 +17,14 @@ import (
 	vimTypes "github.com/vmware/govmomi/vim25/types"
 	"gopkg.in/yaml.v2"
 
-	vmopv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/constants"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/internal"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/network"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/session"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/constants"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/internal"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/network"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/session"
 )
 
 var _ = Describe("Customization utils", func() {

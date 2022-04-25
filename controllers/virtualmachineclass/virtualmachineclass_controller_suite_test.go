@@ -8,9 +8,9 @@ import (
 
 	. "github.com/onsi/ginkgo"
 
-	"github.com/vmware-tanzu/vm-operator/controllers/virtualmachineclass"
-	"github.com/vmware-tanzu/vm-operator/pkg/manager"
-	"github.com/vmware-tanzu/vm-operator/test/builder"
+	"github.com/acharyasreej/vm-operator/controllers/virtualmachineclass"
+	"github.com/acharyasreej/vm-operator/pkg/manager"
+	"github.com/acharyasreej/vm-operator/test/builder"
 )
 
 var suite = builder.NewTestSuiteForController(

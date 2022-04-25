@@ -20,10 +20,10 @@ import (
 	"github.com/vmware/govmomi/vim25"
 	"github.com/vmware/govmomi/vim25/soap"
 
-	. "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/client"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/config"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/credentials"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/test"
+	. "github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/client"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/config"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/credentials"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/test"
 )
 
 func testConfig(vcpnid string, vcport string, user string, pass string) *config.VSphereVMProviderConfig {

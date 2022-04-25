@@ -18,13 +18,13 @@ import (
 
 	"github.com/go-logr/logr"
 
-	vmoperatorv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmoperatorv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/prober/context"
-	"github.com/vmware-tanzu/vm-operator/pkg/prober/probe"
-	"github.com/vmware-tanzu/vm-operator/pkg/prober/worker"
-	vmoprecord "github.com/vmware-tanzu/vm-operator/pkg/record"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider"
+	"github.com/acharyasreej/vm-operator/pkg/prober/context"
+	"github.com/acharyasreej/vm-operator/pkg/prober/probe"
+	"github.com/acharyasreej/vm-operator/pkg/prober/worker"
+	vmoprecord "github.com/acharyasreej/vm-operator/pkg/record"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider"
 )
 
 const (

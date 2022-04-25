@@ -3,7 +3,7 @@
 
 package instancestorage
 
-import vmopv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+import vmopv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
 // GetConfiguredInstanceVolumes returns instance volumes configured in VM resource.
 func GetConfiguredInstanceVolumes(vm *vmopv1alpha1.VirtualMachine) []*vmopv1alpha1.PersistentVolumeClaimVolumeSource {

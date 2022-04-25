@@ -8,8 +8,8 @@ import (
 
 	. "github.com/onsi/ginkgo"
 
-	"github.com/vmware-tanzu/vm-operator/test/builder"
-	"github.com/vmware-tanzu/vm-operator/webhooks/virtualmachine/mutation"
+	"github.com/acharyasreej/vm-operator/test/builder"
+	"github.com/acharyasreej/vm-operator/webhooks/virtualmachine/mutation"
 )
 
 // suite is used for unit and integration testing this webhook.

@@ -1,4 +1,4 @@
-module github.com/vmware-tanzu/vm-operator/external/ncp
+module github.com/acharyasreej/vm-operator/external/ncp
 
 go 1.13
 

@@ -18,11 +18,11 @@ import (
 
 	"github.com/vmware/govmomi/simulator"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/lib"
-	"github.com/vmware-tanzu/vm-operator/pkg/topology"
-	. "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/config"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/credentials"
-	"github.com/vmware-tanzu/vm-operator/test/builder"
+	"github.com/acharyasreej/vm-operator/pkg/lib"
+	"github.com/acharyasreej/vm-operator/pkg/topology"
+	. "github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/config"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/credentials"
+	"github.com/acharyasreej/vm-operator/test/builder"
 )
 
 func newConfig(namespace string, vcPNID string, vcPort string, vcCredsSecretName string) (*corev1.ConfigMap, *corev1.Secret, *VSphereVMProviderConfig) {

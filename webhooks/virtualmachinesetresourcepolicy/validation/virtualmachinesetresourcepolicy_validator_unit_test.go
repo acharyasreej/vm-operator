@@ -15,9 +15,9 @@ import (
 	. "github.com/onsi/ginkgo/extensions/table"
 	. "github.com/onsi/gomega"
 
-	vmopv1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/test/builder"
+	"github.com/acharyasreej/vm-operator/test/builder"
 )
 
 func unitTests() {

@@ -17,9 +17,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/lib"
-	"github.com/vmware-tanzu/vm-operator/pkg/topology"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/credentials"
+	"github.com/acharyasreej/vm-operator/pkg/lib"
+	"github.com/acharyasreej/vm-operator/pkg/topology"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/credentials"
 )
 
 var log = logf.Log.WithName("vsphere").WithName("config")

@@ -22,18 +22,18 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	vmopv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/controllers/virtualmachine"
-	"github.com/vmware-tanzu/vm-operator/pkg/conditions"
-	vmopContext "github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/pkg/lib"
-	proberfake "github.com/vmware-tanzu/vm-operator/pkg/prober/fake"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider"
-	providerfake "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/fake"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/constants"
-	"github.com/vmware-tanzu/vm-operator/test/builder"
-	instancestoragetestutil "github.com/vmware-tanzu/vm-operator/test/instancestorage"
+	"github.com/acharyasreej/vm-operator/controllers/virtualmachine"
+	"github.com/acharyasreej/vm-operator/pkg/conditions"
+	vmopContext "github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/pkg/lib"
+	proberfake "github.com/acharyasreej/vm-operator/pkg/prober/fake"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider"
+	providerfake "github.com/acharyasreej/vm-operator/pkg/vmprovider/fake"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/constants"
+	"github.com/acharyasreej/vm-operator/test/builder"
+	instancestoragetestutil "github.com/acharyasreej/vm-operator/test/instancestorage"
 )
 
 func unitTests() {

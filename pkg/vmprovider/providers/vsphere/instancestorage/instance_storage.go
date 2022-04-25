@@ -4,7 +4,7 @@
 package instancestorage
 
 import (
-	vmopv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 )
 
 // IsConfigured checks if VM spec has instance volumes to identify if VM is configured with instance storage

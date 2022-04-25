@@ -19,7 +19,7 @@ import (
 	"github.com/vmware/govmomi/vim25/soap"
 	"github.com/vmware/govmomi/vim25/types"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/pool"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/pool"
 )
 
 type fakeRoundTripper struct {

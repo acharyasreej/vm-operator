@@ -16,7 +16,7 @@ import (
 
 	// +kubebuilder:scaffold:imports
 
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/pkg/context"
 )
 
 // AddToManagerFunc is a function that can be optionally specified with

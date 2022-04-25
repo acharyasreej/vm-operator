@@ -14,13 +14,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	vmopv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/conditions"
-	"github.com/vmware-tanzu/vm-operator/pkg/patch"
-	"github.com/vmware-tanzu/vm-operator/pkg/prober/context"
-	"github.com/vmware-tanzu/vm-operator/pkg/prober/probe"
-	vmoprecord "github.com/vmware-tanzu/vm-operator/pkg/record"
+	"github.com/acharyasreej/vm-operator/pkg/conditions"
+	"github.com/acharyasreej/vm-operator/pkg/patch"
+	"github.com/acharyasreej/vm-operator/pkg/prober/context"
+	"github.com/acharyasreej/vm-operator/pkg/prober/probe"
+	vmoprecord "github.com/acharyasreej/vm-operator/pkg/record"
 )
 
 const (

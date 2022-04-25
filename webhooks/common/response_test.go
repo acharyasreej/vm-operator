@@ -14,10 +14,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	ctrllog "sigs.k8s.io/controller-runtime/pkg/log"
 
-	vmopv1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/webhooks/common"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/webhooks/common"
 )
 
 var _ = Describe("Validation Response", func() {

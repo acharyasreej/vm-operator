@@ -28,24 +28,24 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/envtest"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 
-	vmopv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
-	ncpv1alpha1 "github.com/vmware-tanzu/vm-operator/external/ncp/api/v1alpha1"
+	vmopv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
+	ncpv1alpha1 "github.com/acharyasreej/vm-operator/external/ncp/api/v1alpha1"
 
-	topologyv1 "github.com/vmware-tanzu/vm-operator/external/tanzu-topology/api/v1alpha1"
+	topologyv1 "github.com/acharyasreej/vm-operator/external/tanzu-topology/api/v1alpha1"
 
-	netopv1alpha1 "github.com/vmware-tanzu/vm-operator/external/net-operator/api/v1alpha1"
-	cnsv1alpha1 "github.com/vmware-tanzu/vm-operator/external/vsphere-csi-driver/pkg/syncer/cnsoperator/apis/cnsnodevmattachment/v1alpha1"
+	netopv1alpha1 "github.com/acharyasreej/vm-operator/external/net-operator/api/v1alpha1"
+	cnsv1alpha1 "github.com/acharyasreej/vm-operator/external/vsphere-csi-driver/pkg/syncer/cnsoperator/apis/cnsnodevmattachment/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/lib"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere"
-	vmopclient "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/client"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/config"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/contentlibrary"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/credentials"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/session"
-	"github.com/vmware-tanzu/vm-operator/test/builder"
-	"github.com/vmware-tanzu/vm-operator/test/testutil"
+	"github.com/acharyasreej/vm-operator/pkg/lib"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere"
+	vmopclient "github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/client"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/config"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/contentlibrary"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/credentials"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/session"
+	"github.com/acharyasreej/vm-operator/test/builder"
+	"github.com/acharyasreej/vm-operator/test/testutil"
 )
 
 const (

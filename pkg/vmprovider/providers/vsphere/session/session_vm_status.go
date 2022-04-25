@@ -11,11 +11,11 @@ import (
 	"github.com/vmware/govmomi/object"
 	vimTypes "github.com/vmware/govmomi/vim25/types"
 
-	"github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	"github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/conditions"
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	res "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/resources"
+	"github.com/acharyasreej/vm-operator/pkg/conditions"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	res "github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/resources"
 )
 
 func ipCIDRNotation(ipAddress string, prefix int32) string {

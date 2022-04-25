@@ -15,11 +15,11 @@ import (
 	apiErrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	"github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/controllers/contentsource"
-	providerfake "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/fake"
-	"github.com/vmware-tanzu/vm-operator/test/builder"
+	"github.com/acharyasreej/vm-operator/controllers/contentsource"
+	providerfake "github.com/acharyasreej/vm-operator/pkg/vmprovider/fake"
+	"github.com/acharyasreej/vm-operator/test/builder"
 )
 
 func unitTests() {

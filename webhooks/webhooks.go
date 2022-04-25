@@ -7,11 +7,11 @@ import (
 	"github.com/pkg/errors"
 	ctrlmgr "sigs.k8s.io/controller-runtime/pkg/manager"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/webhooks/virtualmachine"
-	"github.com/vmware-tanzu/vm-operator/webhooks/virtualmachineclass"
-	"github.com/vmware-tanzu/vm-operator/webhooks/virtualmachineservice"
-	"github.com/vmware-tanzu/vm-operator/webhooks/virtualmachinesetresourcepolicy"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/webhooks/virtualmachine"
+	"github.com/acharyasreej/vm-operator/webhooks/virtualmachineclass"
+	"github.com/acharyasreej/vm-operator/webhooks/virtualmachineservice"
+	"github.com/acharyasreej/vm-operator/webhooks/virtualmachinesetresourcepolicy"
 )
 
 // AddToManager adds all webhooks and a certificate manager to the provided controller manager.

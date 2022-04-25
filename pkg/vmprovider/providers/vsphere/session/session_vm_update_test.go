@@ -19,11 +19,11 @@ import (
 	"github.com/vmware/govmomi/object"
 	vimTypes "github.com/vmware/govmomi/vim25/types"
 
-	vmopv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/conditions"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/constants"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/session"
+	"github.com/acharyasreej/vm-operator/pkg/conditions"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/constants"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/session"
 )
 
 var _ = Describe("Update ConfigSpec", func() {

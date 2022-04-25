@@ -14,10 +14,10 @@ import (
 	"github.com/vmware/govmomi/vim25/types"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	vmopv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/resources"
-	"github.com/vmware-tanzu/vm-operator/test/integration"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/resources"
+	"github.com/acharyasreej/vm-operator/test/integration"
 )
 
 func getVirtualMachineSetResourcePolicy(name, namespace string) *vmopv1alpha1.VirtualMachineSetResourcePolicy {

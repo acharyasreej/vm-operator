@@ -16,15 +16,15 @@ import (
 	k8serrors "k8s.io/apimachinery/pkg/util/errors"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	vmopv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/controllers/volume"
-	cnsv1alpha1 "github.com/vmware-tanzu/vm-operator/external/vsphere-csi-driver/pkg/syncer/cnsoperator/apis/cnsnodevmattachment/v1alpha1"
-	volContext "github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/pkg/lib"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/constants"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/instancestorage"
-	"github.com/vmware-tanzu/vm-operator/test/builder"
+	"github.com/acharyasreej/vm-operator/controllers/volume"
+	cnsv1alpha1 "github.com/acharyasreej/vm-operator/external/vsphere-csi-driver/pkg/syncer/cnsoperator/apis/cnsnodevmattachment/v1alpha1"
+	volContext "github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/pkg/lib"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/constants"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/instancestorage"
+	"github.com/acharyasreej/vm-operator/test/builder"
 )
 
 func unitTests() {

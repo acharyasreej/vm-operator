@@ -22,10 +22,10 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	pkgmgr "github.com/vmware-tanzu/vm-operator/pkg/manager"
-	"github.com/vmware-tanzu/vm-operator/pkg/record"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	pkgmgr "github.com/acharyasreej/vm-operator/pkg/manager"
+	"github.com/acharyasreej/vm-operator/pkg/record"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider"
 )
 
 const (

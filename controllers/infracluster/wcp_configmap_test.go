@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/vmware-tanzu/vm-operator/controllers/infracluster"
+	"github.com/acharyasreej/vm-operator/controllers/infracluster"
 )
 
 func unitTestsWcpConfig() {

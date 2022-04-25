@@ -11,9 +11,9 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/builder"
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/pkg/context/fake"
+	"github.com/acharyasreej/vm-operator/pkg/builder"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/pkg/context/fake"
 )
 
 // UnitTestContext is used for general purpose unit testing.

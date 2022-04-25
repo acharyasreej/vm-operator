@@ -11,10 +11,10 @@ import (
 
 	"github.com/vmware/govmomi/vim25/types"
 
-	vmopv1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/lib"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/clustermodules"
+	"github.com/acharyasreej/vm-operator/pkg/lib"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/clustermodules"
 )
 
 var _ = Describe("FindClusterModuleUUID", func() {

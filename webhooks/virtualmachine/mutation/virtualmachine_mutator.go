@@ -12,10 +12,10 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/builder"
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/pkg/lib"
-	"github.com/vmware-tanzu/vm-operator/pkg/topology"
+	"github.com/acharyasreej/vm-operator/pkg/builder"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/pkg/lib"
+	"github.com/acharyasreej/vm-operator/pkg/topology"
 
 	"github.com/pkg/errors"
 	"k8s.io/apimachinery/pkg/runtime/schema"
@@ -23,7 +23,7 @@ import (
 	ctrlmgr "sigs.k8s.io/controller-runtime/pkg/manager"
 	"sigs.k8s.io/controller-runtime/pkg/webhook/admission"
 
-	vmopv1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 )
 
 const (

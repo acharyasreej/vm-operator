@@ -8,9 +8,9 @@ import (
 
 	ctrlmgr "sigs.k8s.io/controller-runtime/pkg/manager"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/webhooks/virtualmachine/mutation"
-	"github.com/vmware-tanzu/vm-operator/webhooks/virtualmachine/validation"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/webhooks/virtualmachine/mutation"
+	"github.com/acharyasreej/vm-operator/webhooks/virtualmachine/validation"
 )
 
 func AddToManager(ctx *context.ControllerManagerContext, mgr ctrlmgr.Manager) error {

@@ -12,9 +12,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
 
-	vmoperatorv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmoperatorv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/prober/context"
+	"github.com/acharyasreej/vm-operator/pkg/prober/context"
 )
 
 // tcpProber implements the Probe interface.

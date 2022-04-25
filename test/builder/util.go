@@ -13,11 +13,11 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	topologyv1 "github.com/vmware-tanzu/vm-operator/external/tanzu-topology/api/v1alpha1"
+	topologyv1 "github.com/acharyasreej/vm-operator/external/tanzu-topology/api/v1alpha1"
 
 	"github.com/google/uuid"
 
-	vmopv1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 )
 
 const (

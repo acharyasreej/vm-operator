@@ -8,9 +8,9 @@ import (
 
 	"github.com/go-logr/logr"
 
-	vmopv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/patch"
+	"github.com/acharyasreej/vm-operator/pkg/patch"
 )
 
 // ProbeContext is the context used for VM Probes.

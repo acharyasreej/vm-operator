@@ -16,14 +16,14 @@ import (
 	"k8s.io/utils/pointer"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	vmopv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/controllers/virtualmachineservice"
-	"github.com/vmware-tanzu/vm-operator/controllers/virtualmachineservice/providers"
-	"github.com/vmware-tanzu/vm-operator/controllers/virtualmachineservice/utils"
-	"github.com/vmware-tanzu/vm-operator/pkg/conditions"
-	vmopContext "github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/test/builder"
+	"github.com/acharyasreej/vm-operator/controllers/virtualmachineservice"
+	"github.com/acharyasreej/vm-operator/controllers/virtualmachineservice/providers"
+	"github.com/acharyasreej/vm-operator/controllers/virtualmachineservice/utils"
+	"github.com/acharyasreej/vm-operator/pkg/conditions"
+	vmopContext "github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/test/builder"
 )
 
 func unitTests() {

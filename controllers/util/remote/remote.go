@@ -11,7 +11,7 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/vmware-tanzu/vm-operator/controllers/util/encoding"
+	"github.com/acharyasreej/vm-operator/controllers/util/encoding"
 )
 
 // ApplyYAML calls ApplyYAMLWithNamespace with an empty namespace.

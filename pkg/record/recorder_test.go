@@ -9,7 +9,7 @@ import (
 	. "github.com/onsi/gomega"
 	apirecord "k8s.io/client-go/tools/record"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/record"
+	"github.com/acharyasreej/vm-operator/pkg/record"
 )
 
 var _ = Describe("Event utils", func() {

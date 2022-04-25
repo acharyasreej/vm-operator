@@ -10,7 +10,7 @@ import (
 	"github.com/vmware/govmomi/vapi/rest"
 	"github.com/vmware/govmomi/vim25/types"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/lib"
+	"github.com/acharyasreej/vm-operator/pkg/lib"
 )
 
 type Provider interface {

@@ -16,16 +16,16 @@ import (
 	ctrlruntime "sigs.k8s.io/controller-runtime/pkg/client"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 
-	"github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	"github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/record"
-	"github.com/vmware-tanzu/vm-operator/pkg/topology"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider"
-	res "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/resources"
+	"github.com/acharyasreej/vm-operator/pkg/record"
+	"github.com/acharyasreej/vm-operator/pkg/topology"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider"
+	res "github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/resources"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	vcclient "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/client"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/session"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	vcclient "github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/client"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/session"
 )
 
 const (

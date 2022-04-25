@@ -10,10 +10,10 @@ import (
 
 	ctrlmgr "sigs.k8s.io/controller-runtime/pkg/manager"
 
-	"github.com/vmware-tanzu/vm-operator/controllers/infracluster"
-	ctrlContext "github.com/vmware-tanzu/vm-operator/pkg/context"
-	providerfake "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/fake"
-	"github.com/vmware-tanzu/vm-operator/test/builder"
+	"github.com/acharyasreej/vm-operator/controllers/infracluster"
+	ctrlContext "github.com/acharyasreej/vm-operator/pkg/context"
+	providerfake "github.com/acharyasreej/vm-operator/pkg/vmprovider/fake"
+	"github.com/acharyasreej/vm-operator/test/builder"
 )
 
 var intgFakeVMProvider = providerfake.NewVMProvider()

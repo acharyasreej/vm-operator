@@ -15,8 +15,8 @@ import (
 	"github.com/vmware/govmomi/simulator"
 	"github.com/vmware/govmomi/vim25"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere"
-	res "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/resources"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere"
+	res "github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/resources"
 )
 
 // TODO: ResVmToVirtualMachineImage isn't currently used. Just remove it?

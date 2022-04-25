@@ -6,7 +6,7 @@ package vmprovider
 import (
 	"context"
 
-	"github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	"github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 )
 
 type VMMetadata struct {

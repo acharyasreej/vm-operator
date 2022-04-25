@@ -27,20 +27,20 @@ import (
 
 	"github.com/pkg/errors"
 
-	vmopv1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/controllers/volume"
-	netopv1alpha1 "github.com/vmware-tanzu/vm-operator/external/net-operator/api/v1alpha1"
-	"github.com/vmware-tanzu/vm-operator/pkg/auth"
-	"github.com/vmware-tanzu/vm-operator/pkg/builder"
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/pkg/lib"
-	"github.com/vmware-tanzu/vm-operator/pkg/topology"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/config"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/constants"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/instancestorage"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/network"
-	"github.com/vmware-tanzu/vm-operator/webhooks/common"
+	"github.com/acharyasreej/vm-operator/controllers/volume"
+	netopv1alpha1 "github.com/acharyasreej/vm-operator/external/net-operator/api/v1alpha1"
+	"github.com/acharyasreej/vm-operator/pkg/auth"
+	"github.com/acharyasreej/vm-operator/pkg/builder"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/pkg/lib"
+	"github.com/acharyasreej/vm-operator/pkg/topology"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/config"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/constants"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/instancestorage"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/network"
+	"github.com/acharyasreej/vm-operator/webhooks/common"
 )
 
 const (

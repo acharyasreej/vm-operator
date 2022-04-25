@@ -1,4 +1,4 @@
-module github.com/vmware-tanzu/vm-operator/hack/tools
+module github.com/acharyasreej/vm-operator/hack/tools
 
 go 1.16
 

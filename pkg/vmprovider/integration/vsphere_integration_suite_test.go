@@ -16,11 +16,11 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/envtest"
 	"sigs.k8s.io/controller-runtime/pkg/envtest/printer"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider"
-	vcclient "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/client"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/config"
-	vcsession "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/session"
-	"github.com/vmware-tanzu/vm-operator/test/integration"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider"
+	vcclient "github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/client"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/config"
+	vcsession "github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/session"
+	"github.com/acharyasreej/vm-operator/test/integration"
 )
 
 var (

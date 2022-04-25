@@ -13,8 +13,8 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	ctrlclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	topologyv1 "github.com/vmware-tanzu/vm-operator/external/tanzu-topology/api/v1alpha1"
-	"github.com/vmware-tanzu/vm-operator/pkg/lib"
+	topologyv1 "github.com/acharyasreej/vm-operator/external/tanzu-topology/api/v1alpha1"
+	"github.com/acharyasreej/vm-operator/pkg/lib"
 )
 
 const (

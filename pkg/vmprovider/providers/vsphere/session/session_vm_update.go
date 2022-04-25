@@ -14,18 +14,18 @@ import (
 
 	"github.com/vmware/govmomi/object"
 
-	"github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	"github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg"
-	"github.com/vmware-tanzu/vm-operator/pkg/conditions"
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/clustermodules"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/config"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/constants"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/instancestorage"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/network"
-	res "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/resources"
+	"github.com/acharyasreej/vm-operator/pkg"
+	"github.com/acharyasreej/vm-operator/pkg/conditions"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/clustermodules"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/config"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/constants"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/instancestorage"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/network"
+	res "github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/resources"
 )
 
 func ethCardMatch(newEthCard, curEthCard *vimTypes.VirtualEthernetCard) bool {

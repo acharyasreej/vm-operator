@@ -6,9 +6,9 @@ package clustermodules
 import (
 	"github.com/vmware/govmomi/vim25/types"
 
-	"github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	"github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/lib"
+	"github.com/acharyasreej/vm-operator/pkg/lib"
 )
 
 // FindClusterModuleUUID returns the index in the Status.ClusterModules and UUID of the

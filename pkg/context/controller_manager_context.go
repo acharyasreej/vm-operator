@@ -10,8 +10,8 @@ import (
 	"github.com/go-logr/logr"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/record"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider"
+	"github.com/acharyasreej/vm-operator/pkg/record"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider"
 )
 
 // ControllerManagerContext is the context of the controller that owns the

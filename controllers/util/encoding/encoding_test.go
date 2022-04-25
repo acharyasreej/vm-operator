@@ -9,7 +9,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 
-	"github.com/vmware-tanzu/vm-operator/controllers/util/encoding"
+	"github.com/acharyasreej/vm-operator/controllers/util/encoding"
 )
 
 var _ = Describe("DecodeYAML", func() {

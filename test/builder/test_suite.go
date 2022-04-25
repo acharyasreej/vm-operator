@@ -37,11 +37,11 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 	"sigs.k8s.io/yaml"
 
-	"github.com/vmware-tanzu/vm-operator/controllers/util/remote"
-	"github.com/vmware-tanzu/vm-operator/pkg/builder"
-	ctrlCtx "github.com/vmware-tanzu/vm-operator/pkg/context"
-	pkgmgr "github.com/vmware-tanzu/vm-operator/pkg/manager"
-	"github.com/vmware-tanzu/vm-operator/test/testutil"
+	"github.com/acharyasreej/vm-operator/controllers/util/remote"
+	"github.com/acharyasreej/vm-operator/pkg/builder"
+	ctrlCtx "github.com/acharyasreej/vm-operator/pkg/context"
+	pkgmgr "github.com/acharyasreej/vm-operator/pkg/manager"
+	"github.com/acharyasreej/vm-operator/test/testutil"
 )
 
 // Reconciler is a base type for builder's reconcilers

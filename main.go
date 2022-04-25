@@ -17,11 +17,11 @@ import (
 	"k8s.io/klog"
 	"k8s.io/klog/klogr"
 
-	"github.com/vmware-tanzu/vm-operator/controllers"
-	"github.com/vmware-tanzu/vm-operator/pkg"
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/pkg/manager"
-	"github.com/vmware-tanzu/vm-operator/webhooks"
+	"github.com/acharyasreej/vm-operator/controllers"
+	"github.com/acharyasreej/vm-operator/pkg"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/pkg/manager"
+	"github.com/acharyasreej/vm-operator/webhooks"
 
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 	ctrlruntime "sigs.k8s.io/controller-runtime"

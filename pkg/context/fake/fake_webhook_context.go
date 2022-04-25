@@ -6,8 +6,8 @@ package fake
 import (
 	clientrecord "k8s.io/client-go/tools/record"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/pkg/record"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/pkg/record"
 )
 
 // NewWebhookContext returns a fake WebhookContext for unit testing

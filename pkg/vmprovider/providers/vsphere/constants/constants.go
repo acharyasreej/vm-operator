@@ -4,7 +4,7 @@
 package constants
 
 import (
-	"github.com/vmware-tanzu/vm-operator/pkg"
+	"github.com/acharyasreej/vm-operator/pkg"
 )
 
 const (

@@ -9,10 +9,10 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 
-	vmopv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/controllers/virtualmachineservice/providers/simplelb"
-	"github.com/vmware-tanzu/vm-operator/controllers/virtualmachineservice/utils"
+	"github.com/acharyasreej/vm-operator/controllers/virtualmachineservice/providers/simplelb"
+	"github.com/acharyasreej/vm-operator/controllers/virtualmachineservice/utils"
 )
 
 const (

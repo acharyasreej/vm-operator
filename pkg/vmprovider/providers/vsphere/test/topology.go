@@ -11,7 +11,7 @@ import (
 	. "github.com/onsi/gomega"
 	ctrlclient "sigs.k8s.io/controller-runtime/pkg/client"
 
-	topologyv1 "github.com/vmware-tanzu/vm-operator/external/tanzu-topology/api/v1alpha1"
+	topologyv1 "github.com/acharyasreej/vm-operator/external/tanzu-topology/api/v1alpha1"
 )
 
 func CreateZones(

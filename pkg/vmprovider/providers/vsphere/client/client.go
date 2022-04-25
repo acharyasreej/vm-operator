@@ -19,9 +19,9 @@ import (
 	"github.com/vmware/govmomi/vim25/types"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/clustermodules"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/config"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/contentlibrary"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/clustermodules"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/config"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/contentlibrary"
 )
 
 var log = logf.Log.WithName("vsphere").WithName("client")

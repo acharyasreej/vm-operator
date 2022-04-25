@@ -18,14 +18,14 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	vmopv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/conditions"
-	"github.com/vmware-tanzu/vm-operator/pkg/prober/context"
-	fakeprobe "github.com/vmware-tanzu/vm-operator/pkg/prober/fake/probe"
-	"github.com/vmware-tanzu/vm-operator/pkg/prober/probe"
-	"github.com/vmware-tanzu/vm-operator/pkg/record"
-	"github.com/vmware-tanzu/vm-operator/test/builder"
+	"github.com/acharyasreej/vm-operator/pkg/conditions"
+	"github.com/acharyasreej/vm-operator/pkg/prober/context"
+	fakeprobe "github.com/acharyasreej/vm-operator/pkg/prober/fake/probe"
+	"github.com/acharyasreej/vm-operator/pkg/prober/probe"
+	"github.com/acharyasreej/vm-operator/pkg/record"
+	"github.com/acharyasreej/vm-operator/test/builder"
 )
 
 var _ = Describe("VirtualMachine readiness probes", func() {

@@ -22,7 +22,7 @@ import (
 
 	. "github.com/onsi/ginkgo"
 
-	"github.com/vmware-tanzu/vm-operator/test/builder"
+	"github.com/acharyasreej/vm-operator/test/builder"
 )
 
 const (

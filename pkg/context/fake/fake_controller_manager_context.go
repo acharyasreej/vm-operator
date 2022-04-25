@@ -10,9 +10,9 @@ import (
 	clientrecord "k8s.io/client-go/tools/record"
 	ctrllog "sigs.k8s.io/controller-runtime/pkg/log"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/pkg/record"
-	providerfake "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/fake"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/pkg/record"
+	providerfake "github.com/acharyasreej/vm-operator/pkg/vmprovider/fake"
 )
 
 // NewControllerManagerContext returns a fake ControllerManagerContext for unit

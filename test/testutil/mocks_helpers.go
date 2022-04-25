@@ -11,7 +11,7 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/vmware-tanzu/vm-operator/mocks"
+	"github.com/acharyasreej/vm-operator/mocks"
 )
 
 // Contains helper methods to set up mocks, useful for various unit tests.

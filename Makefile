@@ -7,7 +7,7 @@ SHELL := /usr/bin/env bash
 # Detect the Go version for now to be able to run gce2e.
 GO_VERSION := $(shell go version)
 
-GITHUB_PATH := github.com/vmware-tanzu/vm-operator
+GITHUB_PATH := github.com/acharyasreej/vm-operator
 
 # Active module mode, as we use go modules to manage dependencies
 export GO111MODULE := on
@@ -225,7 +225,7 @@ endif
 .PHONY: generate-manifests
 generate-manifests: $(CONTROLLER_GEN) ## Generate manifests e.g. CRD, RBAC etc.
 	$(CONTROLLER_GEN) \
-		paths=github.com/vmware-tanzu/vm-operator-api/api/... \
+		paths=github.com/acharyasreej/vm-operator-api/api/... \
 		crd:trivialVersions=true \
 		crd:crdVersions=v1 \
 		crd:preserveUnknownFields=false \

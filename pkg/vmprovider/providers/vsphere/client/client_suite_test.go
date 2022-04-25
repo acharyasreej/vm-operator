@@ -13,7 +13,7 @@ import (
 	. "github.com/onsi/gomega"
 	"github.com/vmware/govmomi/simulator"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/test"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/test"
 )
 
 var (

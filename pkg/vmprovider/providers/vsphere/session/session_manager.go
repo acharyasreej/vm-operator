@@ -11,11 +11,11 @@ import (
 	"github.com/vmware/govmomi/vim25/types"
 	ctrlruntime "sigs.k8s.io/controller-runtime/pkg/client"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
-	"github.com/vmware-tanzu/vm-operator/pkg/lib"
-	"github.com/vmware-tanzu/vm-operator/pkg/topology"
-	vcclient "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/client"
-	vcconfig "github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/config"
+	"github.com/acharyasreej/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/pkg/lib"
+	"github.com/acharyasreej/vm-operator/pkg/topology"
+	vcclient "github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/client"
+	vcconfig "github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/config"
 )
 
 type Manager struct {

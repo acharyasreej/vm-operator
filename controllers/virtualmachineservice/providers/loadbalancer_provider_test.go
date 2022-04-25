@@ -12,9 +12,9 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/vmware-tanzu/vm-operator/controllers/virtualmachineservice/utils"
+	"github.com/acharyasreej/vm-operator/controllers/virtualmachineservice/utils"
 
-	vmoperatorv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmoperatorv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 )
 
 const (

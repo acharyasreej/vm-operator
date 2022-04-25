@@ -8,9 +8,9 @@ import (
 	"github.com/vmware/govmomi/object"
 	vimTypes "github.com/vmware/govmomi/vim25/types"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/pkg/context"
 
-	vmopv1alpha1 "github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	vmopv1alpha1 "github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 )
 
 func (s *Session) DeleteVirtualMachine(vmCtx context.VirtualMachineContext) error {

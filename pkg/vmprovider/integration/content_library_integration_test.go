@@ -15,8 +15,8 @@ import (
 
 	"github.com/vmware/govmomi/vapi/library"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/contentlibrary"
-	"github.com/vmware-tanzu/vm-operator/test/integration"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/contentlibrary"
+	"github.com/acharyasreej/vm-operator/test/integration"
 )
 
 var _ = Describe("Content Library", func() {

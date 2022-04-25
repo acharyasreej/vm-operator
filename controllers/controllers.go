@@ -7,18 +7,18 @@ import (
 	"github.com/pkg/errors"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/context"
+	"github.com/acharyasreej/vm-operator/pkg/context"
 
-	"github.com/vmware-tanzu/vm-operator/controllers/contentsource"
-	"github.com/vmware-tanzu/vm-operator/controllers/infracluster"
-	"github.com/vmware-tanzu/vm-operator/controllers/infraprovider"
-	"github.com/vmware-tanzu/vm-operator/controllers/providerconfigmap"
-	"github.com/vmware-tanzu/vm-operator/controllers/virtualmachine"
-	"github.com/vmware-tanzu/vm-operator/controllers/virtualmachineclass"
-	"github.com/vmware-tanzu/vm-operator/controllers/virtualmachineimage"
-	"github.com/vmware-tanzu/vm-operator/controllers/virtualmachineservice"
-	"github.com/vmware-tanzu/vm-operator/controllers/virtualmachinesetresourcepolicy"
-	"github.com/vmware-tanzu/vm-operator/controllers/volume"
+	"github.com/acharyasreej/vm-operator/controllers/contentsource"
+	"github.com/acharyasreej/vm-operator/controllers/infracluster"
+	"github.com/acharyasreej/vm-operator/controllers/infraprovider"
+	"github.com/acharyasreej/vm-operator/controllers/providerconfigmap"
+	"github.com/acharyasreej/vm-operator/controllers/virtualmachine"
+	"github.com/acharyasreej/vm-operator/controllers/virtualmachineclass"
+	"github.com/acharyasreej/vm-operator/controllers/virtualmachineimage"
+	"github.com/acharyasreej/vm-operator/controllers/virtualmachineservice"
+	"github.com/acharyasreej/vm-operator/controllers/virtualmachinesetresourcepolicy"
+	"github.com/acharyasreej/vm-operator/controllers/volume"
 )
 
 // AddToManager adds all controllers to the provided manager.

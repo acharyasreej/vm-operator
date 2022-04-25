@@ -21,7 +21,7 @@ import (
 	"github.com/vmware/govmomi/vim25"
 	vimTypes "github.com/vmware/govmomi/vim25/types"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/session"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/session"
 )
 
 var _ = Describe("Test Session Utils", func() {

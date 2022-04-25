@@ -10,11 +10,11 @@ import (
 	"github.com/vmware/govmomi/object"
 	k8serrors "k8s.io/apimachinery/pkg/util/errors"
 
-	"github.com/vmware-tanzu/vm-operator-api/api/v1alpha1"
+	"github.com/acharyasreej/vm-operator-api/api/v1alpha1"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/lib"
-	"github.com/vmware-tanzu/vm-operator/pkg/topology"
-	"github.com/vmware-tanzu/vm-operator/pkg/vmprovider/providers/vsphere/clustermodules"
+	"github.com/acharyasreej/vm-operator/pkg/lib"
+	"github.com/acharyasreej/vm-operator/pkg/topology"
+	"github.com/acharyasreej/vm-operator/pkg/vmprovider/providers/vsphere/clustermodules"
 )
 
 // IsVirtualMachineSetResourcePolicyReady checks if the VirtualMachineSetResourcePolicy for the AZ is ready.

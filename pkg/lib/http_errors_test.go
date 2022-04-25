@@ -9,7 +9,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/vmware-tanzu/vm-operator/pkg/lib"
+	"github.com/acharyasreej/vm-operator/pkg/lib"
 )
 
 var _ = Describe("IsNotFoundError", func() {
